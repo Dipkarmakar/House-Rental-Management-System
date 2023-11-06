@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+.upper-part{
+    display: flex;
+    gap: 5px;
+}
+
+.img-house{
+    width: 30px;
+    margin-left: 230px;
+    margin-top: 40px;
+} 
+.title-part{
+    margin-top: 45px;
+    font-weight: bold;
+}
+
+.nav-btn{
+    margin-left: 1000px;
+    margin-top: 40px;
+    
+    /* width: 180px; */
+   
+}
+.second-part{
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    background-color:#3f3d56;
+    color: white;
+    font-weight: 600;
+}
+
+.login-container{
+
+    display: flex;
+    /* flex-direction: column;s */
+    justify-content: space-around;
+    
+
+   
+}
+.login-child{
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.heading-part{
+    font-size: 35px;
+}
+.name-field{
+    width: 350px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.email-field{
+    width: 350px;
+    padding: 5px;
+    margin-bottom: 20px;
+
+}
+
+.pass-field{
+    width: 350px;
+    padding: 5px;
+}
+.simple-text{
+    text-align: right;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+
+.login-btn{
+    padding: 10px;
+    width: 350px;
+    background-color: #3f3d56;
+    color: white;
+    border-radius: 10px;
+}
+
+.Login-image{
+    margin-right: 300px;
+    margin-top: 50px;
+}
+
+.hello{
+    font-weight: 500;
+}
+

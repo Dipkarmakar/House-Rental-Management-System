@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    padding: 15px;
+    width: 500px;
+    text-align: center;
+}
+
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    margin-top: 10px;
+}
+
+.rate {
+    color: #ff9800;
+}
+
+.book {
+    background-color: #eff4ef;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+main .card .image img{
+    width: 80%;
+    height: 60%;
+    object-fit: cover;
+} 
